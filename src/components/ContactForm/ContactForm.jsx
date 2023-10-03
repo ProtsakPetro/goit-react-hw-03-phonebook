@@ -53,7 +53,7 @@ class ContactForm extends Component {
          />
          <InputLabel>Name</InputLabel>
  			</FormInputContainer>
- 				<FormButton type="submit">Add contact</FormButton>
+ 				<FormButton type="submit">ADD CONTACT</FormButton>
  		</Form>
   }
 
