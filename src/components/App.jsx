@@ -34,7 +34,7 @@ class App extends Component {
       ({ name }) => name === newContact.name
     );
     if (isTrue) {
-      Notify.failure(`${newContact.name} is already in contacts`);
+      Notify.failure(`${newContact.name} it's already in the contacts`);
       return;
     }
     this.setState(({ contacts }) => ({

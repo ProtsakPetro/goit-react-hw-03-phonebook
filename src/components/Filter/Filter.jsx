@@ -5,7 +5,7 @@ const Filter = ({filter, getFilterData}) => {
     return ( 
         <FilterInputContainer>
     <FilterInput type="text" name="filter" id="filter" value={filter} onChange={getFilterData}/>
-    <FilterInputLabel htmlFor="filter">Find contacts by Name</FilterInputLabel>
+    <FilterInputLabel htmlFor="filter">Find contact by Name</FilterInputLabel>
         </FilterInputContainer>
 
   )
